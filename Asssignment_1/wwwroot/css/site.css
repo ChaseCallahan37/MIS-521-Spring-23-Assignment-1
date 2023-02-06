@@ -1,0 +1,61 @@
+body {
+    background-color: #ece8de;
+    color: darkred;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+#title {
+    border-bottom: 2px solid black;
+}
+
+a {
+    transition: all 1000ms;
+}
+
+    a:focus,
+    a:hover {
+        transform: scale(1.1);
+    }
+
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    width: 70%;
+}
+
+.cover-art {
+    width: 30%;
+    border-radius: 2em;
+}
+
+.movie-rating {
+    margin-bottom: 5em;
+    letter-spacing: 1px;
+}
+
+.movie-summary {
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+.movie-trailer {
+    margin-bottom: 2em;
+    width: 35em;
+    height: 20em;
+    border: 5em solid rgb(125, 104, 62);
+    border-radius: 5em;
+}
